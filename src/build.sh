@@ -2,3 +2,5 @@
 
 pwd
 ls -alh
+
+ls modules/crystal
