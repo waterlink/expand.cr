@@ -13,7 +13,7 @@ if [[ -x ../../bin/expand ]] && [[ "$(../../bin/expand --version || echo oops)" 
 fi
 
 export CRYSTAL_CONFIG_VERSION=$CRYSTAL_VERSION
-export CRYSTAL_CONFIG_PATH=/opt/crystal/src
+export CRYSTAL_CONFIG_PATH=/opt/crystal/src:./libs
 export LIBRARY_PATH=/opt/crystal/embedded/lib
 
 mkdir -p .deps
