@@ -1,0 +1,3 @@
+[submodule "modules/crystal"]
+	path = modules/crystal
+	url = https://github.com/crystal-lang/crystal
