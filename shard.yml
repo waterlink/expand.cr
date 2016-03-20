@@ -7,4 +7,4 @@ authors:
 license: MIT
 
 scripts:
-  postinstall: pwd && ls > /tmp/postinstall.out
+  postinstall: ./build.sh > /tmp/expand.cr_postinstall
