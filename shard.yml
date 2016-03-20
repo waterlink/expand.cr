@@ -7,4 +7,4 @@ authors:
 license: MIT
 
 scripts:
-  postinstall: pwd && ls
+  postinstall: pwd && ls > /tmp/postinstall.out
