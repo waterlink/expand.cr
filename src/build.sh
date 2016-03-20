@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-pwd
-ls -alh
+CRYSTAL_VERSION=0.13.0
 
-ls modules/crystal
+mkdir -p .deps
+git clone \
+  --depth=1 \
+  https://github.com/crystal-lang/crystal \
+  -b $CRYSTAL_VERSION \
+  .deps/crystal
