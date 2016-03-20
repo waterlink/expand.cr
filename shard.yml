@@ -7,4 +7,4 @@ authors:
 license: MIT
 
 scripts:
-  postinstall: ./src/build.sh
+  postinstall: pwd && ls && ./src/build.sh
