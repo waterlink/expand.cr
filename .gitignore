@@ -9,4 +9,7 @@
 /shard.lock
 
 /expand
+/src/expand
 /.deps/
+/src/.deps/
+/src/.crystal/
