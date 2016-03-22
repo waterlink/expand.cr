@@ -10,12 +10,12 @@ Add this to your application's `shard.yml`:
 development_dependencies:
   expand:
     github: waterlink/expand.cr
-    version: ~> 0.13.0
+    version: ~> 0.14.1
 ```
 
 `version` should be always `~> YOUR_CRYSTAL_VERSION`. If you need to lock to
 concrete version of `expand` tool: `version: YOUR_CRYSTAL_VERSION.N`, where N
-is the specific version of `expand` tool, for example: `version: 0.13.0.3`.
+is the specific version of `expand` tool, for example: `version: 0.14.1.3`.
 
 And run `shards install`. This will download all required dependencies and
 install the tool. Additionally, it installs its own binary to `./bin` directory
@@ -31,7 +31,7 @@ RAM, since it actually builds a crystal compiler under the hood.
 
 ```bash
 $ ./bin/expand --version
-0.13.0.3
+0.14.1.3
 ```
 
 ### Expand source code of the file
